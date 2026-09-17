@@ -1,6 +1,7 @@
 # IEC-GOOD
 
-Compact runnable implementation of IEC-GOOD. Research hyperparameters are fixed in `config.py`; command-line arguments are limited to dataset paths, OOD settings, runtime options, and random seeds.
+Review version of IEC-GOOD. This repository provides experimental configurations, data split scripts, and supporting implementation details. The full implementation will be made publicly available upon acceptance of the paper. Research hyperparameters are fixed in `config.py`; command-line arguments are limited to dataset paths, OOD settings, runtime options, and random seeds.
+
 
 ## Files
 
