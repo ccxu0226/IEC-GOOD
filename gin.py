@@ -3,7 +3,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch_geometric.nn import GINConv, global_add_pool
 
-
 class Encoder(nn.Module):
     def __init__(self, num_features, hidden_dim, num_gc_layers):
         super().__init__()
