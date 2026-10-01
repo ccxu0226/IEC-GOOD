@@ -34,7 +34,6 @@ from datasets.higraph_dataset import HiGraphDataset
 from datasets.bcg_inter import build_bcg_family_ood_datasets as build_bcg_inter_datasets
 from datasets.bcg_intra import build_bcg_family_ood_datasets as build_bcg_intra_datasets
 
-
 class UnlabeledGraphDataset(Dataset):
     def __init__(self, dataset):
         self.dataset = dataset
