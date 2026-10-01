@@ -7,7 +7,6 @@ import torch
 import torch.nn.functional as F
 from sklearn.cluster import KMeans
 
-
 IEC_GOOD_KMEANS_CLUSTERS = 300
 
 
