@@ -117,6 +117,5 @@ python main.py --DS bcg --root /path/to/data --bcg-split-mode cross_type --seed 
 
 ## Command-line help
 
-```bash
-python main.py --help
+```bash     python main.py --help
 ```
