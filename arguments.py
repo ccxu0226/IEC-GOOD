@@ -5,7 +5,6 @@ import math
 import os
 import os.path as osp
 
-
 def arg_parse(argv=None):
     parser = argparse.ArgumentParser(description="IEC-GOOD self-supervised pretraining and supervised OOD fine-tuning")
 
