@@ -124,7 +124,7 @@ def print_pretraining_configuration(config, runtime_args, dataset_name, input_di
     print(f"Semantic K-means clusters: {config.semantic_clusters}")
     print(f"Context K-means clusters: {config.context_clusters}")
     print(f"Cluster refresh interval: {config.cluster_refresh_interval}")
-    print(f"Complementarity balance lambda_jnt: {config.joint_balance}")
+    print(f"Joint contribution balance lambda_jnt: {config.joint_balance}")
     print("EMA target: original graph representation")
     print(f"EMA momentum: {config.ema_momentum}")
     print("Semantic support: latent environment replacement")
