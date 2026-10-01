@@ -38,7 +38,7 @@ class IECGOODConfig:
     pretrain_epochs: int = 100
     grad_clip_norm: float = 0.0
     finetune_epochs: int = 50
-    num_finetune_runs: int = 1
+    num_finetune_runs: int = 10
 
     batch_size: int = 256
     learning_rate: float = 5e-4
