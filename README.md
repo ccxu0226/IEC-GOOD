@@ -63,24 +63,12 @@ Generate a graph-size OOD split:
 python dataset_gen/call-graph.py --data-dir /path/to/callgraph --bias 0.33
 ```
 
-Run IEC-GOOD:
-
-```bash
-python main.py --DS call-graph --callgraph-data-dir /path/to/callgraph --bias 0.33 --seed 0
-```
-
 ## MalNet-Tiny
 
 Generate a graph-size OOD split:
 
 ```bash
 python dataset_gen/malnet_tiny.py --data-dir /path/to/data --bias 0.33
-```
-
-Run IEC-GOOD:
-
-```bash
-python main.py --DS malnet-tiny --malnet-data-dir /path/to/data --bias 0.33 --seed 0
 ```
 
 For graph-size OOD experiments, Bias is one of `0.33`, `0.66`, or `0.90`.
@@ -95,27 +83,17 @@ Validation: 2019
 Test:       2020, 2021
 ```
 
-Run:
-
-```bash
-python main.py --DS higraph --root /path/to/data --seed 0
-```
-
 ## BCG
 
 Intra-Type Family-OOD:
 
 ```bash
-python main.py --DS bcg --root /path/to/data --bcg-split-mode intra_type --seed 0
+python main.py --DS bcg --root /path/to/data --bcg-split-mode intra_type
 ```
 
 Cross-Type Family-OOD:
 
 ```bash
-python main.py --DS bcg --root /path/to/data --bcg-split-mode cross_type --seed 0
+python main.py --DS bcg --root /path/to/data --bcg-split-mode cross_type
 ```
 
-## Command-line help
-
-```bash     python main.py --help
-```
