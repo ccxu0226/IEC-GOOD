@@ -2,7 +2,6 @@ from __future__ import annotations
 
 from dataclasses import asdict, dataclass
 
-
 @dataclass(frozen=True)
 class IECGOODConfig:
     num_gc_layers: int = 3
